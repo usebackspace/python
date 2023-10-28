@@ -1,0 +1,20 @@
+print("--------- Formatting String --------")
+x='Aven'
+print(f"3: {x}")
+print(f"4: {x:8}")
+print(f"5: {x:<8}")
+print(f"6: {x:>8}")
+print(f"7: {x:#<8}")
+print(f"8: {x:#>8}")
+print(f"9: {x:#^8}")
+
+print()
+
+print('-------- Truncating String ------------')
+print(f"14: {x}")
+print(f"15: {x:8s}")
+print(f"16: {x:<8.2s}")
+print(f"17: {x:>8.2}")
+print(f"18: {x:*<8.2}")
+print(f"19: {x:*>8.2}")
+print(f"20: {x:*^8.2}")
