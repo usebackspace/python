@@ -44,10 +44,10 @@ while(i<10):
 print('-------- Pass Statement Start Here -------')
 
 # Applying Pass Using For loop
-i=2
-if(i%2==0):
-    pass
-else:
-    print('Even Number is',i)
+for i in range(10):
+    if(i%2==0):
+        pass
+    else:
+        print('Odd Number is',i)
 
 

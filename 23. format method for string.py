@@ -1,0 +1,20 @@
+print("--------- Formatting String --------")
+
+print("{}".format('Aven'))
+print("{:8}".format('Aven'))
+print("{:<8}".format('Aven'))
+print("{:>8}".format('Aven'))
+print("{:#<8}".format('Aven'))
+print("{:#>8}".format('Aven'))
+print("{:#^8}".format('Aven'))
+
+print()
+
+print('-------- Truncating String ------------')
+print("{}".format('Aven'))
+print("{:8s}".format('Aven'))
+print("{:<8.2s}".format('Aven'))
+print("{:>8.2}".format('Aven'))
+print("{:*<8.2}".format('Aven'))
+print("{:*>8.2}".format('Aven'))
+print("{:*^8.2}".format('Aven'))

@@ -7,7 +7,7 @@ pi = 3.14159  # pi is a floating-point number
 print(type(pi))
 booll = True  # booll is a boolean
 
-print(x,name,pi,booll,sep=' ### ')
+print(x,name,pi,booll)
 
 # You can also initialize multiple variables in a single line
 a, b, c = 5, "Bob", 2.5

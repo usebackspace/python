@@ -15,7 +15,7 @@ result_div = 20 / 5
 print("Division:", result_div)
 
 # Floor Division (integer division)
-result_floor_div = -21 // 5
+result_floor_div = -24 // 5
 print("Floor Division:", result_floor_div)
 
 # Modulo (Remainder)
