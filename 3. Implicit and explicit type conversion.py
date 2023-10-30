@@ -16,15 +16,16 @@ print(type(y))
 print()
 
 print('--------- Explicitly Converting String Datatype Into Integer ---------')
-num_str = "42"  # str
-print(num_str)
-print(type(num_str))
-num_int = int(num_str)  # Explicitly converts num_str to an integer
-print(num_int)  # Output: 42
-print(type(num_int))
+num = "42"  # str
+print(num)
+print(type(num))
+x = int(num)  # Explicitly converts num_str to an integer
+print(x)  # Output: 42
+print(type(x))
 
 print()
 
 value = 3  # int
 float_value = float(value)  # Explicitly converts value to a float
 print(float_value)  # Output: 3.0
+print(type(float_value))

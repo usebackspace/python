@@ -12,15 +12,16 @@ print(name, age,power,sep='++++')
 print()
 
 # Printing without a newline character at the end
-print("This",end=' ')
-print("is",end='\t')
-print("on", end='\t')
+print("This",end='')
+print("is",end='')
+print("on", end='')
 print("the", end='')
 print("same", end='')
 print("line.")
 
 
 print()
+
 print("captain",end='*')
 print('america')
 print('roger')

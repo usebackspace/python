@@ -19,3 +19,4 @@ else:
             print("It id not a prime Number")
             
 
+print('--------Prime Number With Function----------')

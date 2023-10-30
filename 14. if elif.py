@@ -1,5 +1,5 @@
 # Example 1
-
+print('-----1. elif statement--------')
 if (5<4):
     print('5 is greater')
 elif(4<3):
@@ -9,8 +9,12 @@ elif (6>7):
 else:
     print('7 is greater')
 
+print()
+
+#======================================================================
 
 # Example 2
+print('-----2. elif statement--------')
 
 grade = 85
 
@@ -25,8 +29,11 @@ elif grade >= 60:
 else:
     print("F")
 
+print()
 
+#============================================================================
 # Example of Nested elif 
+print('-----3. elif statement--------')
 
 temperature = 25
 is_raining = True
