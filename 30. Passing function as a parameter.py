@@ -1,32 +1,33 @@
 
 print('-----1. Passing Function As A Parameter-----')
-def display(show):
-    return"This is a Display Function: " + show()
+def display(sh):
+    return"This is a Display Function: " + sh()
+    # print("This is a Display Function: " ), show()
+
+
 def disp():
     return('This is a Show Function')
+    # print('This is a Show Function')
+
 print(display(disp))
+# display(disp)
 
 print()
 
 #===========================================================================
 
 print('-----2. Passing Function As A Parameter-----')
-def add(x, y):
-    return x + y
+def add(a, b):
+    return a + b
 
-def subtract(x, y):
-    return x - y
+def subtract(a, b):
+    return a - b
 
-def apply_operation(func, a, b):
-    # Call the provided function (func) with arguments (a, b)
-    result = func(a, b)
-    return result
+def operate(operation, x, y):
+    return operation(x, y)
 
-# Pass the 'add' function as a parameter to 'apply_operation'
-result1 = apply_operation(add, 5, 3)
+result1 = operate(add, 5, 3)
+print("Result of addition:", result1)  # This will print "Result of addition: 8"
 
-# Pass the 'subtract' function as a parameter to 'apply_operation'
-result2 = apply_operation(subtract, 5, 3)
-
-print("Result of addition:", result1)
-print("Result of subtraction:", result2)
+result2 = operate(subtract, 8, 2)
+print("Result of subtraction:", result2)  # This will print "Result of subtraction: 6"
