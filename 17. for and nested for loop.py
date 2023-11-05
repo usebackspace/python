@@ -17,6 +17,7 @@ print('-------- Printing Table Using For Loop ----------')
 
 x=11
 for i in range(1,11):
+    
     print(x,'*',i,'=',i*x)
 
 print('-------- Printing Table Using Nested For Loop ----------')

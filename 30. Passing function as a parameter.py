@@ -5,11 +5,11 @@ def display(sh):
     # print("This is a Display Function: " ), show()
 
 
-def disp():
+def show():
     return('This is a Show Function')
     # print('This is a Show Function')
 
-print(display(disp))
+print(display(show))
 # display(disp)
 
 print()

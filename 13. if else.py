@@ -12,7 +12,6 @@ print()
 print('-------Nested if else statement------------')
 if (5<4):
     print(' 5 is greater')
-else:
     if (6<7):
         print('6 is smaller')
     else:

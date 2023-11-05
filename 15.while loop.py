@@ -14,4 +14,3 @@ while(i<4):
         print('outer loop',j)
         j+=1
 
-
