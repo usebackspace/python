@@ -18,9 +18,7 @@ print()
 print('-------------Slicing of String----------')
 
 # Slicing of String
-print(my_string[0:2
-
-])      
+print(my_string[1:12:2])      
 print(my_string[1:12])  
 
 

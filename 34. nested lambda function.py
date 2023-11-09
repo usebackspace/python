@@ -15,21 +15,6 @@ print(result)  # Output will be 5
 
 print()
 
-#==================================================================================
-print('------ 3rd Lambda Function ---------')
-
-increment = lambda x: x + 10
-square = lambda x: x * x
-def apply_function(func,number):
-    return func(number)
-
-result1 = apply_function(increment,5)
-result2 = apply_function(square,5)
-
-print(result1)  # Output: 6
-print(result2)  # Output: 25
-
-print()
 
 #==================================================================================
 print('------ 3rd Lambda Function ---------')

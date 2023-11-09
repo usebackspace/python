@@ -1,4 +1,4 @@
-text = "Hello"
+text = "Hello how"
 for x in text:
     print(x)
 

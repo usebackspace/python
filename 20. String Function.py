@@ -13,6 +13,7 @@ print()
 
 # String Methods
 print('-------------String Methods------------')
+text = "Elsa is a good girl"
 print("Uppercase:", text.upper())
 print("Lowercase:", text.lower())
 print("Casefold:", text.casefold()) # It also convert String into Lower case but in more Stronger Way
@@ -47,7 +48,7 @@ print('---------Starting And Ending  And Replace String-------------')
 text = "Elsa is a good girl"
 print("Starts with 'Elsa':", text.startswith("Elsa"))
 print("Ends with 'girl':", text.endswith("girl"))
-print("Replaced 'Hello' with 'Hi':", text.replace("Elsa", "Anna"))
+print("Replaced 'Elsa' with 'Anna':", text.replace("Elsa", "Anna"))
 
 print()
 
@@ -67,7 +68,7 @@ print('----- Counting String-----')
 text = "Hello, Hello, World"
 count = text.count("Hello")
 print(count)  # Output: 2
-print(text.count("Hello"))  # Output: 2
+print(text.count("o"))  # Output: 2
 
 
 print('-----Counting List------')
@@ -128,7 +129,7 @@ print()
 # String Splitting
 print('---------- String Spliting Method----------')
 print('----- Spitting using default delimeter----')
-text = "Hello, World! This - is a sample text."
+text = "Hello, World! This - is a sample text." 
 words = text.split()
 print(words)
 words = text.split("-")
@@ -155,7 +156,7 @@ print('----------String Join Method---------')
 words = ["Hello", "World", "Python"]
 # separator = " "
 # result = separator.join(words)
-result = "# @ # ".join(words)
+result = " 420 ".join(words)
 print(result)
 
 print()
@@ -180,7 +181,9 @@ print("Is it alphabetic?", text1.isalpha())
 print("Is it alphanumeric?", text3.isalnum())
 print("Is it in lowercase?", text4.islower())
 print("Is it in uppercase?", text5.isupper())
-print("Is it numeric?", text.isnumeric())
+print("Is it numeric?", text6.isnumeric())
+print("Is it digit?", text6.isdigit())
+
 
 print()
 

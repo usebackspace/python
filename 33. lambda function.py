@@ -15,6 +15,7 @@ print()
 #===================================================================================
 print('---- Adding 2 number With Lammbda Function ------')
 add = lambda x,y:(x+y)
+print(add)
 print(add(5,6))
 
 print()
@@ -37,6 +38,6 @@ print()
 
 print('----- Passing Default Argument to the Lambda function -----')
 add = lambda x,y=20:(x+y)
-print(add(5,6))
+print(add(5,8))
 
 print()

@@ -8,6 +8,6 @@ x.remove(" ")
 print(x == set(string.ascii_lowercase))
 
 
-print( string.ascii_lowercase)
-print( set(string.ascii_lowercase))
+print( 'sting ascii',string.ascii_lowercase)
+print( 'string set',set(string.ascii_lowercase))
 
