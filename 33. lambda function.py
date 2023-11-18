@@ -15,6 +15,7 @@ print()
 #===================================================================================
 print('---- Adding 2 number With Lammbda Function ------')
 add = lambda x,y:(x+y)
+
 print(add)
 print(add(5,6))
 

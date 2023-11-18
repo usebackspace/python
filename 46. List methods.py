@@ -30,11 +30,32 @@ print()
 print('--------Pop Method--------')
 my_list = [1, 2, 3, 4]
 popped_item = my_list.pop(1)
+print(popped_item)  # Output: 2
 print(my_list)
 my_list = [1, 2, 3, 4]
 popped_item = my_list.pop()
-print(popped_item)  # Output: 2
+print(popped_item)  # Output: 4
 print(my_list)
+
+print()
+
+print('--------Clear Method--------')
+my_list = [1, 2, 3, 4, 5]
+
+# Use the clear() method to remove all items from the list
+my_list.clear()
+
+print(my_list)  # Output: []
+
+print()
+
+print('--------Slicing Method To Clear A List --------')
+my_list = [1, 2, 3, 4, 5]
+
+# Assign an empty list to the original list
+my_list[:] = []
+
+print(my_list)  # Output: []
 
 print()
 
@@ -66,10 +87,13 @@ print(my_list)  # Output: [5, 4, 3, 2, 1]
 
 print()
 
-print('--------Reverse Method--------')
+print('--------Copy Method--------')
 original_list = [1, 2, 3]
 new_list = original_list.copy()
 print(new_list)  # Output: [1, 2, 3]
+new_list.append(100)
+print('Original List After Appending:',original_list)
+print('Appended 100 in copied List :',new_list)
 
 print()
 

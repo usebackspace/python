@@ -9,7 +9,7 @@ print()
 #==================================================================================
 print('------ 2nd Lambda Function ---------')
 
-sub_lambda = lambda x: (lambda y: x - y)
+sub_lambda = lambda x: (lambda y: x - y)(10)(5)
 result = sub_lambda(10)(5) # Value 10 is for x ,and value 5 is for y
 print(result)  # Output will be 5
 
