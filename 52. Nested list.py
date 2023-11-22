@@ -7,6 +7,8 @@ print("1 Index :",nested_list[1])          # Output: [2, 3, 4]
 print("[1][0] Index :",nested_list[1][0])       # Output: 2 (accessing an element within the inner list)
 print("2 Index :",nested_list[2])          # Output: 'hello'
 
+print()
+
 print('----  Result of Modified Nested List ------')
 # Original nested list
 nested_list = [1, [2, 3, 4], 'hello', [5, 6], 7]

@@ -22,3 +22,15 @@ def fibonacci(n):
 
 n=5
 print(f'Fibonacci series of {n} is : {fibonacci(n)}')
+
+print()
+#==========================================================================================
+print('---- Sum of digit, Using Recursive Function ----')
+
+def sum_of_digits(n):
+    if n < 10:
+        return n
+    else:
+        return n % 10 + sum_of_digits(n // 10)
+
+

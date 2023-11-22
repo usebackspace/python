@@ -9,7 +9,7 @@ print('--------extend(iterable) Method--------')
 my_list = [1, 2, 3]
 my_list1=[4,5,6]
 my_list.extend(my_list1)
-print(my_list)  # Output: [1, 2, 3, 4, 5]
+print(my_list)  # Output: [1, 2, 3, 4, 5, 6]
 
 print()
 
