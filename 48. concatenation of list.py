@@ -9,7 +9,7 @@ print()
 
 #=====================================================================
 
-print('------ COncatenating With extend() method -------')
+print('------ Concatenating With extend() method -------')
 list1 = [1, 2, 3]
 list2 = [4, 5, 6]
 
