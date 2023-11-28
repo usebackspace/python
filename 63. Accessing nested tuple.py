@@ -1,6 +1,6 @@
 # Nested tuple
 print('---- Accessing Only Nested tuple in tuple ----- ')
-nested_tuple = (1, (2, 3, 4), 'hello', (5, 6), 7)
+nested_tuple = ( (2, 3, 4), (5, 6))
 
 # Accessing elements using a nested loop
 for i in nested_tuple:
@@ -30,7 +30,7 @@ print()
 #====================================================================================================
 print('---- Accessing tuple Using While Loop ----')
 # Nested tuple
-nested_tuple = (1, (2, 3, 4), 'hello', (5, 6), 7)
+nested_tuple = ((2, 3, 4),(5, 6))
 
 
 # Using a while loop to access elements in the nested tuple
