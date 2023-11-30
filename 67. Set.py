@@ -67,3 +67,13 @@ my_set = {1, 2, 3, 4, 5}
 print(2 in my_set)  # Output: True
 
 print()
+
+#==============================================================================================================
+
+print('---- Accessing Set using for loop ----')
+
+set1 = {1, 2, 3,'hello',6}
+for i in set1:
+    print(i)
+
+print()
