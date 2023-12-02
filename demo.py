@@ -1,6 +1,8 @@
-# x=5
-# for i in range(x):
-#     print((lambda i:f"{i} even" if i%2==0 else f"{i} odd")(i))
-    
+l=[]
+l1=[]
 
-print((lambda x: (lambda y: x - y))(5)(3))
+dif=[]
+for i in l:
+    if i not in l1:
+        dif.append(i)
+print(dif)
