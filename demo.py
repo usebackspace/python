@@ -1,8 +1,8 @@
-l=[1,2,3,4,7,8,9,8,7,9]
-print(l)
-x=set(l)
-print(x)
-y=list(x)
-print(y)
-print(y.sort())
-print(y[-2])
+# Example with numeric keys
+numeric_dict = {1: 'one', 2: 'two', 3: 'three'}
+
+# Example with tuple keys
+tuple_dict = {('a', 1): 'value1', ('b', 2): 'value2'}
+
+print(numeric_dict)
+print(tuple_dict[('a',1)])
