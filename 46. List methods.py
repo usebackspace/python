@@ -60,8 +60,10 @@ print(my_list)  # Output: []
 print()
 
 print('--------Index Method--------')
-my_list = [1, 2, 3, 2, 4]
+my_list = [1, 2, 3, 4, 5, 6, 2]
 index = my_list.index(2)
+print(index)  # Output: 1
+index = my_list.index(2 , 3, 7) # 3 is starting of index and 7 is end of index i.e 7-1
 print(index)  # Output: 1
 
 print()
