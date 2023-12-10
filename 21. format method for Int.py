@@ -1,3 +1,5 @@
+# {index/key:[fill][align][sign][#][0][width][,][.presion]type}
+
 print("{}".format(100)) # No Space is Allowed in brace bracket
 print("No Space is allowed in {} brace bracket , we can add {} any number of space in Start End  and Mid".format(100,200))
 print("{0} {1}".format(100,200)) # Representing  with key
