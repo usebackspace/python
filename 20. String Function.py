@@ -128,7 +128,7 @@ print()
 
 # String Splitting
 print('---------- String Spliting Method----------')
-print('----- Spitting using default delimeter----')
+print('----- Splitting using default delimeter----')
 text = "Hello, World! This - is a sample text." 
 words = text.split()
 print(words)
