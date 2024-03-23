@@ -13,7 +13,7 @@ result_xor = x ^ y
 print("Bitwise XOR:", result_xor)  # Result: 0110 (6 in decimal)
 
 # Bitwise NOT (~)
-x = 1  # Binary: 0101
+x = 5  # Binary: 0101
 result_not_x = ~x
 print("Bitwise NOT:", result_not_x)  # Result: 11111010 (-6 in decimal)
 
