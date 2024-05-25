@@ -28,27 +28,4 @@ def Aven():
 
 Aven()
 
-print()
 
-print('--------------')
-def girlfriend(liya):
-    def gift_bf():
-        a='Flower '
-        r=a+liya()
-        return r
-    return gift_bf
-
-def ex(liya):
-    def gift_gf():
-        x='car '
-        r=x+liya()
-        return r
-    return gift_gf
-
-@ex
-@girlfriend
-def gift():
-    return "Ring"
-
-# gift =ex(girlfriend(gift))
-print(gift())
