@@ -146,3 +146,25 @@
 
 
 
+print('--------------')
+def add(num):
+    def wrap():
+        a=10
+        r=a+num()
+        return r
+    return wrap
+
+def mul(num):
+    def wrap():
+        x=5
+        r=x*num()
+        return r
+    return wrap
+
+# @mul
+# @add
+def num():
+    return 20
+
+num =mul(add(num))
+print(num())
