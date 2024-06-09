@@ -1,3 +1,51 @@
+print('-----1. Clear Method -----')
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+print("Original Dictionary:", my_dict)
+
+my_dict.clear()
+
+print("Dictionary after clear():", my_dict)
+
+print()
+
+#==========================================================================================================
+print('-------- copy() Method --------')
+print('-----2. Shallow Copy -----')
+original_dict = {'a': 1, 'b': [2, 3], 'c': {'x': 4, 'y': 5}}
+
+copied_dict = original_dict.copy()
+
+original_dict['b'][0] = 99
+original_dict['a'] = 100
+
+
+print("Original Dictionary:", original_dict)
+print("Copied Dictionary:", copied_dict)
+
+print()
+
+#==========================================================================================================
+
+print('----2.1 Deep Copy Method ----')
+
+import copy
+
+original_dict = {'a': 1, 'b': [2, 3], 'c': {'x': 4, 'y': 5}}
+
+deep_copied_dict = copy.deepcopy(original_dict)
+
+original_dict['b'][0] = 99
+original_dict['a'] = 100
+
+
+print("Original Dictionary:", original_dict)
+print("Deep Copied Dictionary:", deep_copied_dict)
+
+print()
+
+#==========================================================================================================
 
 print('---- fromkeys() method ----')
 
@@ -157,55 +205,6 @@ dict1.update(dict2)
 dict1.update({'d':'5'})
 
 print(dict1)
-
-print()
-
-#==========================================================================================================
-
-print('-----1. Clear Method -----')
-
-my_dict = {'a': 1, 'b': 2, 'c': 3}
-
-print("Original Dictionary:", my_dict)
-
-my_dict.clear()
-
-print("Dictionary after clear():", my_dict)
-
-print()
-
-#==========================================================================================================
-print('-------- copy() Method --------')
-print('-----2. Shallow Copy -----')
-original_dict = {'a': 1, 'b': [2, 3], 'c': {'x': 4, 'y': 5}}
-
-copied_dict = original_dict.copy()
-
-original_dict['b'][0] = 99
-original_dict['a'] = 100
-
-
-print("Original Dictionary:", original_dict)
-print("Copied Dictionary:", copied_dict)
-
-print()
-
-#==========================================================================================================
-
-print('----2.1 Deep Copy Method ----')
-
-import copy
-
-original_dict = {'a': 1, 'b': [2, 3], 'c': {'x': 4, 'y': 5}}
-
-deep_copied_dict = copy.deepcopy(original_dict)
-
-original_dict['b'][0] = 99
-original_dict['a'] = 100
-
-
-print("Original Dictionary:", original_dict)
-print("Deep Copied Dictionary:", deep_copied_dict)
 
 print()
 
