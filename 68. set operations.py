@@ -49,7 +49,8 @@ print('----3.1 Difference Update ----')
 set1 = {1, 2, 3, 4, 5}
 set2 = {4, 5, 6, 7, 8}
 
-# Using difference_update to remove elements common to both sets from set1
+# Using difference_update to remove 
+# elements common to both sets from set1
 set1.difference_update(set2)
 s=set1.difference_update(set2)
 print(set1)
